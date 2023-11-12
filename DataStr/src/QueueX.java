@@ -50,4 +50,3 @@ public class QueueX {
         return (rear==maxSize-1);
      }
     }   
-

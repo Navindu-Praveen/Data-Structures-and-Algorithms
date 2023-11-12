@@ -4,7 +4,7 @@ public class App {
         System.out.println("Hello, World!");
 
         StackX myStackX1 = new StackX(5);
-        StackX myStackX2 = new StackX(10);
+        // StackX myStackX2 = new StackX(10);
         
         myStackX1.push(5.2);
         myStackX1.push(10);
