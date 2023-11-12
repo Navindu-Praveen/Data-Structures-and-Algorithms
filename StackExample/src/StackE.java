@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-public class App {
+public class StackE {
     public static void main(String[] args) throws Exception {
 
         // System.out.println("Hello, World!");
