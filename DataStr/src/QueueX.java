@@ -12,7 +12,17 @@ public class QueueX {
         queArray=new int[maxSize];
         nItems=0;
     }
-
-
-    
+    public void insert(int j){
+        //check queue is full or not
+        if (rear==maxSize-1) {
+            System.out.println("Queue is full");
+        }else{
+            rear ++;
+            queArray[rear]=j;
+            //increse the n items 
+            nItems ++;
+        }
+                    }
+                    
+    }   
 }
