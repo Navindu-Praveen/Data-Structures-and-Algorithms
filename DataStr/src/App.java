@@ -17,6 +17,16 @@ public class App {
         
         System.out.println(x);
         System.out.println(y);
+
+        //Link list
+        Link L1 = new Link(20);
+        Link L2 = new Link(30);
+        Link L3 = new Link(50);
+
+        //conect link list using next
+        L1.next=L2;
+        L2.next=L3;
+
     }
     
 }
